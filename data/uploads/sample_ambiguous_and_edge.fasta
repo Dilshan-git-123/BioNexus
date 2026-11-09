@@ -1,0 +1,12 @@
+>seq_standard Standard canonical sequence
+ATGCGATCGATCGATCGA
+>seq_ambiguous IUPAC Degenerate bases test
+ATGYRWSKMBDHVNNCGAT
+>seq_high_gc High GC-content genomic region
+CGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCG
+>seq_high_at High AT-content promoter island
+AATTTAAATTTTAAAATTTTAAATTTTAAATT
+>seq_invalid Sequence containing illegal characters
+ATGCGTARZX123@#NTCG
+>seq_empty Empty sequence record
+

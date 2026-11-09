@@ -1,0 +1,38 @@
+# Python virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Streamlit runtime
+.streamlit/secrets.toml
+
+# Environment & Secrets
+.env
+.env.*
+*.env
+
+# Outputs and user uploads (keep directories via .gitkeep)
+outputs/*
+!outputs/.gitkeep
+data/uploads/*
+!data/uploads/.gitkeep
+!data/uploads/sample_*.fasta
+data/processed/*
+!data/processed/.gitkeep
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+
